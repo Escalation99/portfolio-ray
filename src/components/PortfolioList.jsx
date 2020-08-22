@@ -6,7 +6,7 @@ class PortofolioList extends React.Component {
         portofolioLists: [],
     };
     componentDidMount = () => {
-        fetch("https://api.jsonbin.io/b/5f3833874d9399103615755f")
+        fetch("https://api.jsonbin.io/b/5f3833874d9399103615755f/2")
             .then((response) => response.json())
             .then(({ portolist }) => this.setState({ portofolioLists: portolist }))
             .catch((error) => console.log(error));
