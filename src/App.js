@@ -5,6 +5,7 @@ import PortfolioList from './components/PortfolioList.jsx';
 import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 import Advice from './components/Advice.jsx';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Contact />
       <Advice />
+      <Footer />
     </div>
   );
 }
