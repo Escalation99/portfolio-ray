@@ -4,6 +4,7 @@ import Hero from "./components/Hero.jsx"
 import PortfolioList from './components/PortfolioList.jsx';
 import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
+import Advice from './components/Advice.jsx';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <PortfolioList />
       <About />
       <Contact />
+      <Advice />
     </div>
   );
 }
